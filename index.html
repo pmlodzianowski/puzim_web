@@ -1,804 +1,1172 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Państwowa Uczelnia Zawodowa - Strona główna</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Państwowa Uczelnia Zawodowa - Strona główna</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/images/favicon.ico" rel="icon" />
 
-  <!-- Favicons -->
-  <link href="assets/images/favicon.ico" rel="icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-</head>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <a href="index.html" class="logo me-auto"
+          ><img src="assets/images/logo_puz_white.png" alt="puz-logo"
+        /></a>
 
-<body>
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top" style="
-  background: linear-gradient(
-    45deg,
-    rgba(34, 62, 100, 0.95),
-    rgba(21, 41, 69, 0.764) 100%
-  );
-">
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto" href="#hero">Start</a></li>
+            <li><a class="nav-link scrollto" href="#about">O nas</a></li>
+            <li><a class="nav-link scrollto" href="#services">Oferta</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#departments">Wydziały</a>
+            </li>
+            <li><a class="nav-link scrollto" href="#doctors">Władze</a></li>
+            <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
 
-    <div class="container d-flex align-items-center">
-
-      <a href="index.html" class="logo me-auto"><img src="assets/images/logo_puz_white.png" alt=""></a>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto " href="#hero">Start</a></li>
-          <li><a class="nav-link scrollto" href="#about">O nas</a></li>
-          <li><a class="nav-link scrollto" href="#services">Oferta</a></li>
-          <li><a class="nav-link scrollto" href="#departments">Wydziały</a></li>
-          <li><a class="nav-link scrollto" href="#doctors">Władze</a></li>
-          <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-    </div>
-  </header><!-- End Header -->
-
-  <!-- Background image -->
-  <div id="hero" class="bg-image vh-100 shadow-1-strong">
-    <video style="min-width: 100%; min-height: 100%;" playsinline autoplay muted loop>
-      <source class="h-100" src="assets/images/bg.mp4" type="video/mp4" />
-    </video>
-    <div class="mask" style="
-  background: linear-gradient(
-    45deg,
-    rgba(21, 41, 69, 0.95),
-    rgba(21, 41, 69, 0.85) 100%
-  );
-">
-      <img
-        class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center text-center hero-content py-3"
-        src="Bez tytułu.jpg" alt=""
-        style="border-radius: 35%; opacity: 15%; max-width: 40%; max-height: 40%; margin-left: 50%; margin-top: 170px;" />
-      <div
-        class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center text-center hero-content py-3"
-        syle="background: transparent;" style="border: 0;">
-        <h1 class="display-1" style="color: white;">
-          Państwowa Uczelnia Zawodowa <br> im. Ignacego Mościckiego <br> w Ciechanowie
-        </h1>
+    <div id="hero" class="bg-image vh-100 shadow-1-strong">
+      <video playsinline autoplay muted loop>
+        <source class="h-100" src="assets/images/bg.mp4" type="video/mp4" />
+      </video>
+      <div class="mask">
+        <img
+          class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center text-center hero-content py-3 im-photo"
+          src="Bez tytułu.jpg"
+          alt="Ignacy-Photo"
+        />
+        <div
+          class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex flex-column justify-content-center text-center hero-content py-3 school-name"
+          syle="background: transparent;"
+        >
+          <h1 class="display-1">
+            Państwowa Uczelnia Zawodowa <br />
+            im. Ignacego Mościckiego <br />
+            w Ciechanowie
+          </h1>
+        </div>
       </div>
     </div>
-  </div>
-  <!-- Background image -->
 
-  <main id="main">
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Wizja i Misja Uczelni</h2>
-          <p>Państwowa Uczelnia Zawodowa im. Ignacego Mościckiego w Ciechanowie jest uczelnią innowacyjną, nastawioną na
-            kształcenie interdyscyplinarne i zindywidualizowane, ukierunkowane
-            na studenta i jego potrzeby. Państwowa Uczelnia Zawodowa im. Ignacego Mościckiego w Ciechanowie wyposaża
-            swoich
-            absolwentów w wiedzę i umiejętności dające im szanse na satysfakcjonującą karierę zawodową, kształtującą
-            postawy
-            obywatelskie i prospołeczne, wychodzącą jednocześnie naprzeciw potrzebom lokalnego rynku pracy. Jest także
-            Uczelnią,
-            w której zespoły dydaktyków i praktyków gospodarczych podejmują i rozwiązują szereg problemów nie tylko
-            dydaktycznych,
-            ale także badawczych i gospodarczych, przyczyniając się tym samym do rozwoju nauki i gospodarki.</p>
-          <br>
-          <p>Państwowa Uczelnia Zawodowa im. Ignacego Mościckiego w Ciechanowie jest publiczną uczelnią wyższą, której
-            misją
-            jest działalność dydaktyczna młodzieży i dorosłych, a swoją elastycznością reagowania odpowiada na potrzeby
-            lokalnego rynku pracy,
-            wychodzi naprzeciw oczekiwaniom środowiska biznesu, administracji i edukacji. Przygotowuje także do wejścia
-            na
-            europejski rynek pracy wykwalifikowaną kadrę, odznaczającą się nie tylko wysokim poziomem wiedzy
-            merytorycznej
-            i zawodowej, ale również prezentującą proeuropejskie postawy obywatelskie i społeczne.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/uczelnia.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Historia</h3>
-            <p class="fst-italic">
-              Państwowa Wyższa Szkoła Zawodowa w Ciechanowie została utworzona na mocy
-              rozporządzenia Rady Ministrów Rzeczpospolitej Polskiej pod przewodnictwem Premiera Jerzego Buzka 24 lipca
-              2001 r.
+    <main id="main">
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Wizja i Misja Uczelni</h2>
+            <p>
+              Państwowa Uczelnia Zawodowa im. Ignacego Mościckiego w Ciechanowie
+              jest uczelnią innowacyjną, nastawioną na kształcenie
+              interdyscyplinarne i zindywidualizowane, ukierunkowane na studenta
+              i jego potrzeby. Państwowa Uczelnia Zawodowa im. Ignacego
+              Mościckiego w Ciechanowie wyposaża swoich absolwentów w wiedzę i
+              umiejętności dające im szanse na satysfakcjonującą karierę
+              zawodową, kształtującą postawy obywatelskie i prospołeczne,
+              wychodzącą jednocześnie naprzeciw potrzebom lokalnego rynku pracy.
+              Jest także Uczelnią, w której zespoły dydaktyków i praktyków
+              gospodarczych podejmują i rozwiązują szereg problemów nie tylko
+              dydaktycznych, ale także badawczych i gospodarczych, przyczyniając
+              się tym samym do rozwoju nauki i gospodarki.
             </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Już od października 2001 r. uroczyście zainaugurowano po raz
-                pierwszy rok akademicki
-                wraz ze 146 nowoprzyjętymi studentami studiów dziennych na dwie specjalności: pielęgniarstwo i język
-                polski z logopedią.
-                Utworzono dwa instytuty: Instytut Ochrony Zdrowia w Ciechanowie i Instytut Filologiczno – Historyczny w
-                Mławie.</li>
-              <li><i class="bi bi-check-circle"></i> Pierwszym rektorem PWSZ w Ciechanowie mianowany został 1 września
-                2001 r. prof. dr
-                hab. inż. Stanisław Mańkowski, profesor Politechniki Warszawskiej. Funkcję tę pełnił tylko przez jeden
-                rok, obejmując po
-                tym okresie funkcję rektora Politechniki Warszawskiej.</li>
-              <li><i class="bi bi-check-circle"></i> Na mocy Rozporządzenia Ministra Nauki i Szkolnictwa Wyższego z dnia
-                12
-                sierpnia 2019 r. w sprawie zmiany nazw niektórych publicznych uczelni zawodowych
-                (Dz. U. z 2019 r., poz. 1560) od 1 października 2019 r. Uczelnia nosi nazwę Państwowa Uczelnia Zawodowa
-                im.
-                Ignacego Mościckiego w Ciechanowie.</li>
-            </ul>
+            <br />
+            <p>
+              Państwowa Uczelnia Zawodowa im. Ignacego Mościckiego w Ciechanowie
+              jest publiczną uczelnią wyższą, której misją jest działalność
+              dydaktyczna młodzieży i dorosłych, a swoją elastycznością
+              reagowania odpowiada na potrzeby lokalnego rynku pracy, wychodzi
+              naprzeciw oczekiwaniom środowiska biznesu, administracji i
+              edukacji. Przygotowuje także do wejścia na europejski rynek pracy
+              wykwalifikowaną kadrę, odznaczającą się nie tylko wysokim poziomem
+              wiedzy merytorycznej i zawodowej, ale również prezentującą
+              proeuropejskie postawy obywatelskie i społeczne.
+            </p>
           </div>
-        </div>
 
-      </div>
-    </section><!-- End About Us Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="fas fa-male"></i>
-              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1"
-                class="purecounter"></span>
-
-              <p><strong>Pracowników</strong> realizujących zajęcia dydaktyczne</p>
-              <a href="#">Czytaj więcej &raquo;</a>
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-right">
+              <img
+                src="assets/img/uczelnia.jpg"
+                class="img-fluid"
+                alt="zdjecie-uczelni"
+              />
             </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="fas fa-map-signs"></i>
-              <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Kierunków</strong> studiów (X inżynierskich, X licencjackich, X magisterskich)</p>
-              <a href="#">Czytaj więcej &raquo;</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="fas fa-briefcase"></i>
-              <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Nowoczesnych<strong> pracowni specjalistycznych</strong> w 3 kampusach</p>
-              <a href="#">Czytaj więcej &raquo;</a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="fas fa-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Absolwentów</strong> dumnie reprezntujących uczelnię</p>
-              <a href="#">Czytaj więcej &raquo;</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services services">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Kierunki</h2>
-        </div>
-
-        <h3 class="mb-5">Wydział Inżynierii i Ekonomii</h3>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-tools"></i></div>
-            <h4 class="title"><a href="">MECHANIKA I BUDOWA MASZYN</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-              occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-3 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-image"></i></div>
-            <h4 class="title"><a href="">INŻYNIERIA ŚRODOWISKA</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-3 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-tractor"></i></div>
-            <h4 class="title"><a href="">ROLNICTWO</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-3 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-laptop-code"></i></div>
-            <h4 class="title"><a href="">INFORMATYKA</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-              mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-coins"></i></div>
-            <h4 class="title"><a href="">EKONOMIA</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-              voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-6 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-tasks"></i></div>
-            <h4 class="title"><a href="">ZARZĄDZANIE</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
-              soluta nobis est eligendi</p>
-          </div>
-        </div>
-
-        <h3 class="mb-5 mt-5">Wydział Nauk o Zdrowiu i Nauk Społecznych</h3>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-heartbeat"></i></div>
-            <h4 class="title"><a href="">PIELĘGNIARSTWO</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-              occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-child"></i></div>
-            <h4 class="title"><a href="">PEDAGOGIKA</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-user-friends"></i></div>
-            <h4 class="title"><a href="">PRACA SOCJALNA</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur</p>
-          </div>
-        </div>
-
-        <h3 class="mb-5 mt-5">Wydział Nauk Technicznych i Społecznych - Filia w Mławie</h3>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon"><i class="fas fa-wifi"></i></div>
-            <h4 class="title"><a href="">ELEKTRONIKA I TELEKOMUNIKACJA</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
-              occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon"><i class="fas fa-lock"></i></div>
-            <h4 class="title"><a href="">BEZPIECZEŃSTWO WEWNĘTRZNE</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 icon-box" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon"><i class="fas fa-shipping-fast"></i></div>
-            <h4 class="title"><a href="">LOGISTYKA</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-              fugiat nulla pariatur</p>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Departments Section ======= -->
-    <section id="departments" class="departments">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Wydziały</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-                  <h4>Wydział Inżynierii i Ekonomii</h4>
-                  <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-                  <h4>Wydział Nauk o Zdrowiu i Nauk Społecznych</h4>
-                  <p>Voluptas vel esse repudiandae quo excepturi.</p>
-                </a>
-              </li>
-              <li class="nav-item mt-2">
-                <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-                  <h4>Wydział Nauk Technicznych i Społecznych - Filia w Mławie</h4>
-                  <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-8">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <h3>Wydział Inżynierii i Ekonomii</h3>
-                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
-                  videna mareta paulona marka</p>
-                <img src="assets/img/wydzial_in.png" alt="" class="img-fluid">
-                <p>06-400 Ciechanów<br>
-                  ul. Gabriela Narutowicza 9<br>
-                  tel.:(23) 672 30 75<br>
-                  wie@puzim.edu.pl</p>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <h3>Wydział Nauk o Zdrowiu i Nauk Społecznych</h3>
-                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
-                  videna mareta paulona marka</p>
-                <img src="assets/img/wydzial_hum.png" alt="" class="img-fluid">
-                <p>06-400 Ciechanów<br>
-                  ul. Wojska Polskiego 51<br>
-                  tel.: (23) 672 22 13<br>
-                  (23) 674 37 04<br>
-                  wzs@puzim.edu.pl</p>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <h3>Wydział Nauk Technicznych i Społecznych - Filia w Mławie</h3>
-                <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
-                  videna mareta paulona marka</p>
-                <img src="assets/img/wydzial_tech.png" alt="" class="img-fluid">
-                <p>06-500 Mława<br>
-                  ul. Warszawska 52<br>
-                  tel.: (23) 654 98 08<br>
-                  wts@puzim.edu.pl</p>
-              </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3>Historia</h3>
+              <p class="fst-italic">
+                Państwowa Wyższa Szkoła Zawodowa w Ciechanowie została utworzona
+                na mocy rozporządzenia Rady Ministrów Rzeczpospolitej Polskiej
+                pod przewodnictwem Premiera Jerzego Buzka 24 lipca 2001 r.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check-circle"></i> Już od października 2001 r.
+                  uroczyście zainaugurowano po raz pierwszy rok akademicki wraz
+                  ze 146 nowoprzyjętymi studentami studiów dziennych na dwie
+                  specjalności: pielęgniarstwo i język polski z logopedią.
+                  Utworzono dwa instytuty: Instytut Ochrony Zdrowia w
+                  Ciechanowie i Instytut Filologiczno – Historyczny w Mławie.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Pierwszym rektorem PWSZ w
+                  Ciechanowie mianowany został 1 września 2001 r. prof. dr hab.
+                  inż. Stanisław Mańkowski, profesor Politechniki Warszawskiej.
+                  Funkcję tę pełnił tylko przez jeden rok, obejmując po tym
+                  okresie funkcję rektora Politechniki Warszawskiej.
+                </li>
+                <li>
+                  <i class="bi bi-check-circle"></i> Na mocy Rozporządzenia
+                  Ministra Nauki i Szkolnictwa Wyższego z dnia 12 sierpnia 2019
+                  r. w sprawie zmiany nazw niektórych publicznych uczelni
+                  zawodowych (Dz. U. z 2019 r., poz. 1560) od 1 października
+                  2019 r. Uczelnia nosi nazwę Państwowa Uczelnia Zawodowa im.
+                  Ignacego Mościckiego w Ciechanowie.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
+      </section>
 
-      </div>
-    </section><!-- End Departments Section -->
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
+          <div class="row no-gutters">
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="fas fa-male"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="85"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
 
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Opinie studentów</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <strong>Pracowników</strong> realizujących zajęcia dydaktyczne
                 </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Student 1</h3>
+                <a href="#">Czytaj więcej &raquo;</a>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="fas fa-map-signs"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="12"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <strong>Kierunków</strong> studiów (X inżynierskich, X
+                  licencjackich, X magisterskich)
                 </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Student 2</h3>
+                <a href="#">Czytaj więcej &raquo;</a>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="fas fa-briefcase"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="14"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  Nowoczesnych<strong> pracowni specjalistycznych</strong> w 3
+                  kampusach
                 </p>
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Student 3</h3>
+                <a href="#">Czytaj więcej &raquo;</a>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
+            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+              <div class="count-box">
+                <i class="fas fa-award"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="1500"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  <strong>Absolwentów</strong> dumnie reprezntujących uczelnię
                 </p>
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Student 4</h3>
+                <a href="#">Czytaj więcej &raquo;</a>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Kierunki</h2>
+          </div>
+
+          <h3 class="mb-5">Wydział Inżynierii i Ekonomii</h3>
+          <div class="row">
+            <div
+              class="col-lg-3 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="fas fa-tools"></i></div>
+              <h4 class="title"><a href="">MECHANIKA I BUDOWA MASZYN</a></h4>
+              <p class="description">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditate non provident
+              </p>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon"><i class="fas fa-image"></i></div>
+              <h4 class="title"><a href="">INŻYNIERIA ŚRODOWISKA</a></h4>
+              <p class="description">
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat tarad limino ata
+              </p>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="fas fa-tractor"></i></div>
+              <h4 class="title"><a href="">ROLNICTWO</a></h4>
+              <p class="description">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur
+              </p>
+            </div>
+            <div
+              class="col-lg-3 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="fas fa-laptop-code"></i></div>
+              <h4 class="title"><a href="">INFORMATYKA</a></h4>
+              <p class="description">
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+            <div
+              class="col-lg-6 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon"><i class="fas fa-coins"></i></div>
+              <h4 class="title"><a href="">EKONOMIA</a></h4>
+              <p class="description">
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque
+              </p>
+            </div>
+            <div
+              class="col-lg-6 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="fas fa-tasks"></i></div>
+              <h4 class="title"><a href="">ZARZĄDZANIE</a></h4>
+              <p class="description">
+                Et harum quidem rerum facilis est et expedita distinctio. Nam
+                libero tempore, cum soluta nobis est eligendi
+              </p>
+            </div>
+          </div>
+
+          <h3 class="mb-5 mt-5">Wydział Nauk o Zdrowiu i Nauk Społecznych</h3>
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="fas fa-heartbeat"></i></div>
+              <h4 class="title"><a href="">PIELĘGNIARSTWO</a></h4>
+              <p class="description">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditate non provident
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon"><i class="fas fa-child"></i></div>
+              <h4 class="title"><a href="">PEDAGOGIKA</a></h4>
+              <p class="description">
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat tarad limino ata
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="fas fa-user-friends"></i></div>
+              <h4 class="title"><a href="">PRACA SOCJALNA</a></h4>
+              <p class="description">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur
+              </p>
+            </div>
+          </div>
+
+          <h3 class="mb-5 mt-5">
+            Wydział Nauk Technicznych i Społecznych - Filia w Mławie
+          </h3>
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="icon"><i class="fas fa-wifi"></i></div>
+              <h4 class="title">
+                <a href="">ELEKTRONIKA I TELEKOMUNIKACJA</a>
+              </h4>
+              <p class="description">
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditate non provident
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <div class="icon"><i class="fas fa-lock"></i></div>
+              <h4 class="title"><a href="">BEZPIECZEŃSTWO WEWNĘTRZNE</a></h4>
+              <p class="description">
+                Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat tarad limino ata
+              </p>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 icon-box"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <div class="icon"><i class="fas fa-shipping-fast"></i></div>
+              <h4 class="title"><a href="">LOGISTYKA</a></h4>
+              <p class="description">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Departments Section ======= -->
+      <section id="departments" class="departments">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Wydziały</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <ul class="nav nav-tabs flex-column">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active show"
+                    data-bs-toggle="tab"
+                    data-bs-target="#tab-1"
+                  >
+                    <h4>Wydział Inżynierii i Ekonomii</h4>
+                    <p>
+                      Quis excepturi porro totam sint earum quo nulla
+                      perspiciatis eius.
+                    </p>
+                  </a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#tab-2"
+                  >
+                    <h4>Wydział Nauk o Zdrowiu i Nauk Społecznych</h4>
+                    <p>Voluptas vel esse repudiandae quo excepturi.</p>
+                  </a>
+                </li>
+                <li class="nav-item mt-2">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    data-bs-target="#tab-3"
+                  >
+                    <h4>
+                      Wydział Nauk Technicznych i Społecznych - Filia w Mławie
+                    </h4>
+                    <p>
+                      Velit veniam ipsa sit nihil blanditiis mollitia natus.
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-8">
+              <div class="tab-content">
+                <div class="tab-pane active show" id="tab-1">
+                  <h3>Wydział Inżynierii i Ekonomii</h3>
+                  <p class="fst-italic">
+                    Qui laudantium consequatur laborum sit qui ad sapiente dila
+                    parde sonata raqer a videna mareta paulona marka
+                  </p>
+                  <img
+                    src="assets/img/wydzial_in.png"
+                    alt="wydzial-image"
+                    class="img-fluid"
+                  />
+                  <p>
+                    06-400 Ciechanów<br />
+                    ul. Gabriela Narutowicza 9<br />
+                    tel.:(23) 672 30 75<br />
+                    wie@puzim.edu.pl
+                  </p>
+                </div>
+                <div class="tab-pane" id="tab-2">
+                  <h3>Wydział Nauk o Zdrowiu i Nauk Społecznych</h3>
+                  <p class="fst-italic">
+                    Qui laudantium consequatur laborum sit qui ad sapiente dila
+                    parde sonata raqer a videna mareta paulona marka
+                  </p>
+                  <img
+                    src="assets/img/wydzial_hum.png"
+                    alt="wydzial-image"
+                    class="img-fluid"
+                  />
+                  <p>
+                    06-400 Ciechanów<br />
+                    ul. Wojska Polskiego 51<br />
+                    tel.: (23) 672 22 13<br />
+                    (23) 674 37 04<br />
+                    wzs@puzim.edu.pl
+                  </p>
+                </div>
+                <div class="tab-pane" id="tab-3">
+                  <h3>
+                    Wydział Nauk Technicznych i Społecznych - Filia w Mławie
+                  </h3>
+                  <p class="fst-italic">
+                    Qui laudantium consequatur laborum sit qui ad sapiente dila
+                    parde sonata raqer a videna mareta paulona marka
+                  </p>
+                  <img
+                    src="assets/img/wydzial_tech.png"
+                    alt="wydzial-image"
+                    class="img-fluid"
+                  />
+                  <p>
+                    06-500 Mława<br />
+                    ul. Warszawska 52<br />
+                    tel.: (23) 654 98 08<br />
+                    wts@puzim.edu.pl
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Opinie studentów</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div
+            class="testimonials-slider swiper"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec
+                    porttitora entum suscipit rhoncus. Accusantium quam,
+                    ultricies eget id, aliquam eget nibh et. Maecen aliquam,
+                    risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-1.jpg"
+                    class="testimonial-img"
+                    alt="testimonial-image"
+                  />
+                  <h3>Student 1</h3>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Export tempor illum tamen malis malis eram quae irure esse
+                    labore quem cillum quid cillum eram malis quorum velit fore
+                    eram velit sunt aliqua noster fugiat irure amet legam anim
+                    culpa.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-2.jpg"
+                    class="testimonial-img"
+                    alt="testimonial-image-2"
+                  />
+                  <h3>Student 2</h3>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Enim nisi quem export duis labore cillum quae magna enim
+                    sint quorum nulla quem veniam duis minim tempor labore quem
+                    eram duis noster aute amet eram fore quis sint minim.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-3.jpg"
+                    class="testimonial-img"
+                    alt="testimonial-image-3"
+                  />
+                  <h3>Student 3</h3>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa
+                    multos export minim fugiat minim velit minim dolor enim duis
+                    veniam ipsum anim magna sunt elit fore quem dolore labore
+                    illum veniam.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-4.jpg"
+                    class="testimonial-img"
+                    alt="testimonial-image-4"
+                  />
+                  <h3>Student 4</h3>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide">
+                <div class="testimonial-item">
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure
+                    aliqua veniam tempor noster veniam enim culpa labore duis
+                    sunt culpa nulla illum cillum fugiat legam esse veniam culpa
+                    fore nisi cillum quid.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                  <img
+                    src="assets/img/testimonials/testimonials-5.jpg"
+                    class="testimonial-img"
+                    alt="testimonial-image-5"
+                  />
+                  <h3>Student 5</h3>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Doctors Section ======= -->
+      <section id="the-board" class="the-board section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Władze</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/gkoc.png"
+                    class="img-fluid wladze-card"
+                    alt="rektor-Grzegorz-Koc"
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Rektor</h3>
+                  <h4>dr inż. Grzegorz Koc</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="200">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/rektor_zygner.png"
+                    class="img-fluid wladze-card"
+                    alt="prorektor-Leszek-Zygner"
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Prorektor</h3>
+                  <h4>prof. dr hab. Leszek Zygner</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <div class="member-img">
+                  <img
+                    src="http://via.placeholder.com/416x350"
+                    class="img-fluid"
+                    alt="kanclerz-Piotr-Wójcik"
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Kanclerz</h3>
+                  <h4>mgr inż. Piotr Wójcik</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-title">
+            <h2>Dziekani Wydziałów</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/rrudzinski.png"
+                    class="img-fluid dziekani-card"
+                    alt="dziekan-Robert-Rudziński"
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Dziekan Wydziału Inżynierii i Ekonomii</h3>
+                  <h4>dr inż. Robert Rudziński</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="200">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/rdzik.png"
+                    class="img-fluid dziekani-card"
+                    alt="dziekan-Renata-Dzik"
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Dziekan Wydziału Nauk Technicznych i Społecznych</h3>
+                  <h4>dr Renata Dzik</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <div class="member-img">
+                  <img
+                    src="assets/img/doctors/ewisniewska.png"
+                    class="img-fluid dziekani-card"
+                    alt="dziekan-Ewa-Wiśniewska"
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Dziekan Wydziału Nauk o Zdrowiu i Nauk Społecznych</h3>
+                  <h4>dr Ewa Wiśniewska</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery" class="gallery">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Galeria</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <div class="gallery-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide">
+                <a class="gallery-lightbox"
+                  ><img
+                    src="http://via.placeholder.com/240x180"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a class="gallery-lightbox"
+                  ><img
+                    src="http://via.placeholder.com/240x180"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a class="gallery-lightbox"
+                  ><img
+                    src="http://via.placeholder.com/240x180"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a class="gallery-lightbox"
+                  ><img
+                    src="http://via.placeholder.com/240x180"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a class="gallery-lightbox"
+                  ><img
+                    src="http://via.placeholder.com/240x180"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a class="gallery-lightbox"
+                  ><img
+                    src="http://via.placeholder.com/240x180"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a class="gallery-lightbox"
+                  ><img
+                    src="http://via.placeholder.com/240x180"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+              <div class="swiper-slide">
+                <a class="gallery-lightbox"
+                  ><img
+                    src="http://via.placeholder.com/240x180"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <!-- ======= Frequently Asked Questioins Section ======= -->
+      <section id="faq" class="faq section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Najczęściej zadawane pytania (FAQ)</h2>
+            <p>
+              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            </p>
+          </div>
+
+          <ul class="faq-list">
+            <li>
+              <div
+                data-bs-toggle="collapse"
+                class="collapsed question"
+                href="#faq1"
+              >
+                Pytanie 1 <i class="bi bi-chevron-down icon-show"></i
+                ><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                 <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                  volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                  magna fringilla urna porttitor rhoncus dolor purus non.
                 </p>
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>Student 5</h3>
               </div>
-            </div><!-- End testimonial item -->
+            </li>
 
-          </div>
-          <div class="swiper-pagination"></div>
+            <li>
+              <div
+                data-bs-toggle="collapse"
+                href="#faq2"
+                class="collapsed question"
+              >
+                Pytanie 2 <i class="bi bi-chevron-down icon-show"></i
+                ><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Dolor sit amet consectetur adipiscing elit pellentesque
+                  habitant morbi. Id interdum velit laoreet id donec ultrices.
+                  Fringilla phasellus faucibus scelerisque eleifend donec
+                  pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                  ultrices eros in cursus turpis massa tincidunt dui.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div
+                data-bs-toggle="collapse"
+                href="#faq3"
+                class="collapsed question"
+              >
+                Pytanie 3 <i class="bi bi-chevron-down icon-show"></i
+                ><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                  sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                  nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+                  pellentesque eu tincidunt. Lectus urna duis convallis
+                  convallis tellus. Urna molestie at elementum eu facilisis sed
+                  odio morbi quis
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div
+                data-bs-toggle="collapse"
+                href="#faq4"
+                class="collapsed question"
+              >
+                Pytanie 4 <i class="bi bi-chevron-down icon-show"></i
+                ><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Dolor sit amet consectetur adipiscing elit pellentesque
+                  habitant morbi. Id interdum velit laoreet id donec ultrices.
+                  Fringilla phasellus faucibus scelerisque eleifend donec
+                  pretium. Est pellentesque elit ullamcorper dignissim. Mauris
+                  ultrices eros in cursus turpis massa tincidunt dui.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div
+                data-bs-toggle="collapse"
+                href="#faq5"
+                class="collapsed question"
+              >
+                Pytanie 5 <i class="bi bi-chevron-down icon-show"></i
+                ><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Molestie a iaculis at erat pellentesque adipiscing commodo.
+                  Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                  viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+                  bibendum est. Purus gravida quis blandit turpis cursus in
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <div
+                data-bs-toggle="collapse"
+                href="#faq6"
+                class="collapsed question"
+              >
+                Pytanie 6 <i class="bi bi-chevron-down icon-show"></i
+                ><i class="bi bi-chevron-up icon-close"></i>
+              </div>
+              <div id="faq6" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris
+                  vitae ultricies leo integer malesuada nunc vel. Tincidunt eget
+                  nullam non nisi est sit amet. Turpis nunc eget lorem dolor
+                  sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                  Pellentesque diam volutpat commodo sed egestas egestas
+                  fringilla phasellus faucibus. Nibh tellus molestie nunc non
+                  blandit massa enim nec.
+                </p>
+              </div>
+            </li>
+          </ul>
         </div>
+      </section>
+    </main>
+    <!-- End #main -->
 
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Doctors Section ======= -->
-    <section id="doctors" class="doctors section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Władze</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/doctors/gkoc.png" class="img-fluid wladze-card" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-info">
+                <h3>
+                  Państwowa Uczelnia Zawodowa im. Ignacego Mościckiego w
+                  Ciechanowie
+                </h3>
+                <p>ul. Narutowicza 9</p>
+                <p class="pb-3">06-400 Ciechanów</p>
+                <p class="pb-6">
+                  <strong>Telefon (Rektorat):</strong> 23 672 20 50
+                </p>
+                <p class="pb-6">
+                  <strong>Email (Rektorat):</strong> rektorat@puzim.edu.pl
+                </p>
+                <div class="social-links mt-3">
+                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                  <a href="#" class="facebook"
+                    ><i class="bx bxl-facebook"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="bx bxl-instagram"></i
+                  ></a>
+                  <a href="#" class="google-plus"
+                    ><i class="bx bxl-skype"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="bx bxl-linkedin"></i
+                  ></a>
                 </div>
               </div>
-              <div class="member-info">
-                <h3>Rektor</h3>
-                <h4>dr inż. Grzegorz Koc</h4>
-              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 footer-links">
+              <h4>Powiązane portale</h4>
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/images/icons/email.png"
+                      alt="email-icon"
+                    />
+                    Poczta</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/images/icons/wordpress.png"
+                      alt="wordpress-icon"
+                    />
+                    Wirtualna Uczelnia</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/images/icons/moodle.png"
+                      alt="moodle-icon"
+                    />
+                    Platforma Moodle</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/images/icons/ack.png" alt="ack-icon" />
+                    Akademickie Centrum Kształcenia</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="assets/images/icons/bip.png" alt="bip-icon" />
+                    Biuletyn Informacji Publicznej</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="assets/images/icons/youtube.png"
+                      alt="youtube-icon"
+                    />
+                    YouTube</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Strony zakładów</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#">Zakład Informatyki</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Zakład A</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Zakład B</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Zakład C</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#">Zakład D</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-newsletter">
+              <a href="#"
+                ><img src="assets/images/logo_puz_white.png" alt="puz-logo"
+              /></a>
+              <a href="#"><img src="assets/images/herb.png" alt="herb" /></a>
+              <a href="#"
+                ><img src="assets/images/qrcode.png" alt="qrcode"
+              /></a>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/doctors/rektor_zygner.png" class="img-fluid wladze-card" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h3>Prorektor</h3>
-                <h4>prof. dr hab. Leszek Zygner </h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-12 align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="http://via.placeholder.com/416x350" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h3>Kanclerz</h3>
-                <h4>mgr inż. Piotr Wójcik</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="section-title">
-          <h2>Dziekani Wydziałów</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/doctors/rrudzinski.png" class="img-fluid dziekani-card" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h3>Dziekan Wydziału Inżynierii i Ekonomii</h3>
-                <h4>dr inż. Robert Rudziński</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/doctors/rdzik.png" class="img-fluid dziekani-card" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h3>Dziekan Wydziału Nauk Technicznych i Społecznych</h3>
-                <h4>dr Renata Dzik</h4>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-12 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/doctors/ewisniewska.png" class="img-fluid dziekani-card" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h3>Dziekan Wydziału Nauk o Zdrowiu i Nauk Społecznych</h3>
-                <h4>dr Ewa Wiśniewska</h4>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Doctors Section -->
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery" class="gallery">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Gallery</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="gallery-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="gallery-lightbox"><img src="http://via.placeholder.com/240x180"
-                  class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox"><img src="http://via.placeholder.com/240x180"
-                  class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox"><img src="http://via.placeholder.com/240x180"
-                  class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox"><img src="http://via.placeholder.com/240x180"
-                  class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox"><img src="http://via.placeholder.com/240x180"
-                  class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox"><img src="http://via.placeholder.com/240x180"
-                  class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox"><img src="http://via.placeholder.com/240x180"
-                  class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox"><img src="http://via.placeholder.com/240x180"
-                  class="img-fluid" alt=""></a></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Gallery Section -->
-
-    <!-- ======= Frequently Asked Questioins Section ======= -->
-    <section id="faq" class="faq section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Najczęściej zadawane pytania (FAQ)</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-            in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <ul class="faq-list">
-
-          <li>
-            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Pytanie 1 <i
-                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
-                gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Pytanie 2 <i
-                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
-                donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
-                ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Pytanie 3 <i
-                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum
-                integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
-                Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Pytanie 4 <i
-                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
-                donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
-                ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Pytanie 5 <i
-                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc
-                vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus
-                gravida quis blandit turpis cursus in
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Pytanie 6 <i
-                class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada
-                nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis
-                tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas
-                fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-              </p>
-            </div>
-          </li>
-
-        </ul>
-
-      </div>
-    </section><!-- End Frequently Asked Questioins Section -->
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>Państwowa Uczelnia Zawodowa im. Ignacego Mościckiego w Ciechanowie</h3>
-              <p>
-                ul. Narutowicza 9<br>
-                06-400 Ciechanów<br><br>
-                <strong>Telefon (Rektorat):</strong> 23 672 20 50<br>
-                <strong>Email (Rektorat):</strong> rektorat@puzim.edu.pl<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Powiązane portale</h4>
-            <ul>
-              <li><a href="#"><img src="assets/images/icons/email.png" alt="">
-                  Poczta</a></li>
-              <li><a href="#"><img src="assets/images/icons/wordpress.png" alt="">
-                  Wirtualna Uczelnia</a></li>
-              <li><a href="#"><img src="assets/images/icons/moodle.png" alt="">
-                  Platforma Moodle</a></li>
-              <li><a href="#"><img src="assets/images/icons/ack.png" alt="">
-                  Akademickie Centrum Kształcenia</a></li>
-              <li><a href="#"><img src="assets/images/icons/bip.png" alt="">
-                  Biuletyn
-                  Informacji Publicznej</a></li>
-              <li><a href="#"><img src="assets/images/icons/youtube.png" alt="">
-                  YouTube</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Strony zakładów</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Zakład Informatyki</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Zakład A</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Zakład B</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Zakład C</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Zakład D</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <a href="#"><img src="assets/images/logo_puz_white.png" style="max-height: 120px;" alt=""></a>
-            <a href="#"><img src="assets/images/herb.png" style="max-height: 120px;" alt=""></a>
-            <a href="#"><img src="assets/images/qrcode.png" style="max-height: 120px;" alt=""></a>
-          </div>
-
         </div>
       </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
